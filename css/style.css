@@ -1,0 +1,83 @@
+:root{
+    --editorial: #09A9ED;
+    --Q1-Goals: #AB5DE6;
+    --Recruiting: #2CC6AB;
+    --Website: #EC4A9D;
+    --Mobile: #FF9B00;
+    --Sales: #A3D116;
+    --Body-Bg: #f6f8f9;
+    --Light-primary: #ffffff;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: var(--Body-Bg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: var(--Light-primary);
+    padding: 1rem 2rem;
+}
+.logo{
+    display: inline-block;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: .5rem;
+}
+.todo-wrapper{
+    background-color: var(--Light-primary);
+    width: 70%;
+    margin: 3rem auto;
+    border-radius: .7rem;
+}
+.button-container{
+    width: 100%;
+    padding: 1rem 2.5rem;
+}
+.main-btn{
+    background-color: var(--editorial);
+    border: 1px solid var(--editorial);
+    padding: 0.4rem 0.8rem;
+    color: var(--Light-primary);
+    font-weight: 550;
+    border-radius: 4px;
+}
+.ghost-btn{
+    background-color: var(--Light-primary);
+    border: 1px solid var(--editorial);
+    padding: 0.4rem 0.8rem;
+    color: var(--editorial);
+    font-weight: 550;
+    border-radius: 4px;
+}
+hr{
+    width: 100%;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid var(--Body-Bg);
+    padding: 0;
+}
+.list-container{
+    padding: 1.5rem 3rem;
+    
+}
+ul li{
+    list-style: none;
+    margin-bottom: 2rem;
+}
+.section-title{
+    margin-bottom: .8rem;
+}
+.marker{
+    border-radius: 9px;
+    font-size: .6rem;
+    color: var(--Light-primary);
+    padding: 0.3rem 0.6rem;
+    font-weight: 600;
+}
+.editorial{
+    background-color: var(--editorial);
+}
