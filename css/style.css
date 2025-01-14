@@ -7,6 +7,9 @@
     --Sales: #A3D116;
     --Body-Bg: #f6f8f9;
     --Light-primary: #ffffff;
+    --cross: red;
+    --check: green;
+
 }
 *{
     padding: 0;
@@ -97,4 +100,15 @@ ul li{
 }
 .sales{
     background-color: var(--Sales);
+}
+footer{
+    text-align: center;
+}
+.check{
+    color: var(--check);
+    font-size: 1.5rem;
+}
+.cross{
+    color: var(--cross);
+    font-size: 1.5rem;
 }
