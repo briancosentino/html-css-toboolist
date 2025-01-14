@@ -61,15 +61,17 @@ hr{
     padding: 0;
 }
 .list-container{
-    padding: 1.5rem 3rem;
+    padding-left: 3rem;
+    padding-bottom: 1.5rem;
     
 }
 ul li{
     list-style: none;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
 }
 .section-title{
     margin-bottom: .8rem;
+    margin-top: 1.5rem;
 }
 .marker{
     border-radius: 9px;
@@ -80,4 +82,19 @@ ul li{
 }
 .editorial{
     background-color: var(--editorial);
+}
+.q1-goals{
+    background-color: var(--Q1-Goals);
+}
+.website{
+    background-color: var(--Website);
+}
+.recruiting{
+    background-color: var(--Recruiting);
+}
+.mobile{
+    background-color: var(--Mobile);
+}
+.sales{
+    background-color: var(--Sales);
 }
