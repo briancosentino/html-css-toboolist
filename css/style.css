@@ -23,11 +23,17 @@ nav{
     background-color: var(--Light-primary);
     padding: 1rem 2rem;
 }
+
+.logo-img{
+    height: 100%;
+    vertical-align: middle;
+}
 .logo{
     display: inline-block;
     font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: .5rem;
+    vertical-align: middle;
 }
 .todo-wrapper{
     background-color: var(--Light-primary);
@@ -104,11 +110,30 @@ ul li{
 footer{
     text-align: center;
 }
+.checkmark{
+    height: 1.1rem;
+    width: 1.1rem;
+    border-radius: 50%;
+    border: 1.5px solid var(--check);
+    display: inline-block;
+    line-height: 1.1rem;
+    text-align: center;
+    color: var(--check);
+}
 .check{
     color: var(--check);
     font-size: 1.5rem;
 }
 .cross{
+    height: 1.1rem;
+    width: 1.1rem;
+    border-radius: 50%;
+    border: 1.5px solid var(--cross);
+    display: inline-block;
+    line-height: 1.1rem;
+    text-align: center;
     color: var(--cross);
-    font-size: 1.5rem;
+    
+    
+  
 }
